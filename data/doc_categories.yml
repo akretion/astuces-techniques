@@ -1,0 +1,17 @@
+- "Introduction":
+    _slug: "introduction"
+    name: "Introduction"
+- "Get started":
+    _slug: "installation"
+    name: "Installation & Configuration"
+- "Template":
+    _slug: "template"
+    name: "Template"
+
+- "API References":
+    _slug: "api"
+    name: "API References"
+
+- "Backend Configuration":
+    _slug: "configuration"
+    name: "Configuration"

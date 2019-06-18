@@ -1,0 +1,45 @@
+---
+title: Doc template
+slug: content_type_template
+position: 1
+handle: doc_template
+listed: true
+published: true
+is_layout: false
+content_type: doc_pages
+---
+{% extends 'layouts/doc' %}
+{% block "body/content/doc" %}
+	<div class="row">
+		<div class="col-12 col-xl-9">
+			<div class="border-bottom pb-4 mb-2">
+				<h2 class="display-4 font-weight-light text-gray">{{doc_page.name}}</h2>
+				<div class="d-xl-none">
+					<b>{{'doc_menu' | translate}}</b>
+					<div class="doc-menu pt-2">
+			  	</div>
+				</div>
+			</div>
+		  <div class="documentation-content pt-2">
+		  	{{doc_page.content | markdown  }}
+		  </div>
+		  <div class="border-top pt-2 pb-2 d-flex justify-content-between">
+
+		  	<a href="{% path_to doc_page.category %}">
+		  		{{doc_page.category.name}}
+		  	</a>
+		  	<a href="{% path_to doc_page.next %}">
+		  		{{doc_page.next.name}} <i class="fa fa-a,g"></i>
+		  	</a>
+		  </div>
+		</div>
+		<div class="col-12 col-xl-3 border-left d-none d-xl-block ">
+			<b>{{'doc_menu' | translate}}</b>
+		  <div class="doc-menu">
+		  	
+		  </div>
+		</div>
+
+	</div>
+
+{% endblock%}
