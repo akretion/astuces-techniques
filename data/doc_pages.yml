@@ -1,83 +1,35 @@
-- 'Why Shopinvader':
-    _slug: 'why-shopinvader'
-    name: Why Shopinvader
+- 'Que trouver ici ?':
+    _slug: 'que-trouver-ici'
+    name: Que trouver ici ?
     category: introduction
-    content: "<%= inject('doc_pages/en/why-shopinvader.md') %>"
+    content: "<%= inject('doc_pages/fr/que-trouver-ici.md') %>"
 
-- 'Architecture':
-    _slug: 'architecture'
-    name: Architecture
-    category: introduction
-    content: "<%= inject('doc_pages/en/architecture.md') %>"
+- 'Docky':
+    _slug: 'docky'
+    name: Docky
+    category: utilitaires
+    content: "<%= inject('doc_pages/fr/docky.md') %>"
 
-- 'Installation':
-    _slug: 'installation'
-    name: Installation
-    category: installation
-    content: "<%= inject('doc_pages/en/installation.md') %>"
+- 'Ak':
+    _slug: 'ak'
+    name: Ak
+    category: utilitaires
+    content: "<%= inject('doc_pages/fr/ak.md') %>"
 
-- 'First step':
-    _slug: 'settings'
-    name: Configuration
-    category: installation
-    content: "<%= inject('doc_pages/en/first-steps.md') %>"
+- 'Pipx':
+    _slug: 'pipx'
+    name: Pipx
+    category: utilitaires
+    content: "<%= inject('doc_pages/fr/pipx.md') %>"
 
-- 'Get the template':
-    _slug: 'get-template'
-    name: Get the template
-    category: template
-    content: "<%= inject('doc_pages/en/get-template.md') %>"
+- 'Pytest':
+    _slug: 'pytest'
+    name: Pytest
+    category: test_debug
+    content: "<%= inject('doc_pages/fr/pytest.md') %>"
 
-- 'File structure':
-    _slug: 'file-structure'
-    name: File structure
-    category: template
-    content: "<%= inject('doc_pages/en/file-structure.md') %>"
-
-- 'Products':
-    _slug: 'products'
-    name: Products
-    category: api
-    content: "<%= inject('doc_pages/en/products.md') %>"
-
-- 'Categories':
-    _slug: 'categories'
-    name: Categories
-    category: api
-    content: "<%= inject('doc_pages/en/categories.md') %>"
-
-- 'Sales':
-    _slug: 'sales'
-    name: Sales
-    category: api
-    content: "<%= inject('doc_pages/en/sales.md') %>"
-
-- 'Customers':
-    _slug: 'customers'
-    name: Customers
-    category: api
-    content: "<%= inject('doc_pages/en/customers.md') %>"
-
-- 'Notifications':
-    _slug: 'notifications'
-    name: Notifications
-    category: api
-    content: "<%= inject('doc_pages/en/notifications.md') %>"
-
-- 'Shopping cart':
-    _slug: 'shopping-cart'
-    name: Shopping cart
-    category: api
-    content: "<%= inject('doc_pages/en/cart.md') %>"
-
-- 'Swagger':
-    _slug: 'swagger'
-    name: Swagger
-    category: api
-    content: "<%= inject('doc_pages/en/cart.md') %>"
-
-- 'Special tags/attributes':
-    _slug: 'special-tag'
-    name: Special tags/attributes
-    category: template
-    content: "<%= inject('doc_pages/en/special-tag.md') %>"
+- 'Ipdb':
+    _slug: 'ipdb'
+    name: Ipdb
+    category: test_debug
+    content: "<%= inject('doc_pages/fr/ipdb.md') %>"
