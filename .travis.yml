@@ -1,15 +1,15 @@
 sudo: false
 
 language: ruby
-
-before_install:
-  - bundle install
+cache: bundler
 
 script:
   - echo "NOTHING"
 
 deploy:
+  skip_cleanup: true
   provider: script
-  script: bundle exec wagon deploy -d -v production
+  script:
+    - bundle install && bundle exec wagon deploy -d -v production
   on:
     branch: master
